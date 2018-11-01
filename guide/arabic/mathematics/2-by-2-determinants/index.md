@@ -23,6 +23,7 @@ localeTitle: 2 في 2 المحددات
 #### معلومات اكثر:
 
 *   [محدد من مصفوفة](https://github.com/freeCodeCamp/guides/blob/master/src/pages/mathematics/determinant-of-a-matrix/index.md "محدد من مصفوفة")
+
 *   [ويكيبيديا: محدد 2x2](https://en.wikipedia.org/wiki/Determinant#2_.C3.97_2_matrices)
 
 ![IMG](https://ncalculators.com/images/formulas/2x2-matrix-determinant.jpg)
