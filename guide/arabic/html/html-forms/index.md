@@ -24,7 +24,7 @@ localeTitle: نماذج HTML
 
 مثال الكود:
 
- `
+ ```
 <form> 
     <label for="username">Username:</label> 
     <input type="text" name="username" id="username"> 
@@ -43,7 +43,7 @@ localeTitle: نماذج HTML
     <input type="color"> 
     <input type="checkbox" name="correct" value="correct">Correct 
  </form> 
-` 
+```
 
 العناصر الأخرى التي يمكن أن تحتوي على الشكل:
 
