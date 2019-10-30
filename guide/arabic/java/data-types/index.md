@@ -25,7 +25,8 @@ localeTitle: أنواع البيانات
 
 نوع البيانات بايت هو عدد صحيح مكمل 8 بت موقعة اثنين.
 
- `Wrapper Class: Byte 
+`
+ Wrapper Class: Byte 
  
  Minimum value: -128 (-2^7) 
  
@@ -40,7 +41,8 @@ localeTitle: أنواع البيانات
 
 نوع البيانات القصير هو عدد صحيح مكمل من 16 بت موقعة اثنين.
 
- `Wrapper Class: Short 
+`
+ Wrapper Class: Short 
  
  Minimum value: -32,768 (-2^15) 
  
@@ -55,7 +57,8 @@ localeTitle: أنواع البيانات
 
 نوع البيانات IN هو عدد صحيح مكمل 32 بت موقعة اثنين. يتم استخدامه بشكل عام كنوع بيانات افتراضي للقيم المتكاملة إلا إذا كان هناك قلق حول الذاكرة.
 
- `Wrapper Class: Integer 
+`
+ Wrapper Class: Integer 
  
  Minimum value: (-2^31) 
  
@@ -70,7 +73,8 @@ localeTitle: أنواع البيانات
 
 نوع بيانات طويل هو عدد صحيح مكمل 64 بت موقعة اثنين.
 
- `Wrapper Class: Long 
+` 
+ Wrapper Class: Long 
  
  Minimum value: (-2^63) 
  
@@ -92,7 +96,8 @@ localeTitle: أنواع البيانات
 
 نوع بيانات عائم عبارة عن [نقطة عائمة IEEE 754](http://steve.hollasch.net/cgindex/coding/ieeefloat.html) ذات دقة واحدة 32 بت.
 
- `Wrapper Class: Float 
+`
+ Wrapper Class: Float 
  
  Float is mainly used to save memory in large arrays of floating point numbers. 
  
@@ -108,7 +113,8 @@ localeTitle: أنواع البيانات
 
 نوع بيانات مزدوج هو [نقطة عائم IEEE 754](http://steve.hollasch.net/cgindex/coding/ieeefloat.html) مزدوجة الدقة 64 بت. عادةً ما يكون نوع البيانات هذا هو الخيار الافتراضي. يجب عدم استخدام نوع البيانات هذا مطلقًا للقيم الدقيقة ، مثل العملة.
 
- `Wrapper Class: Double 
+`
+ Wrapper Class: Double 
  
  This data type is generally used as the default data type for decimal values. 
  
@@ -121,7 +127,8 @@ localeTitle: أنواع البيانات
 
 نستخدم نوع البيانات هذا لتخزين الأحرف. هذا ليس هو نفسه مثل شار في C / C ++. تستخدم Java مجموعة `UNICODE` ، مجموعة الأحرف المقبولة دوليًا. شار في جاوة هو 16 بت في حين أن في C / C ++ 8 بت.
 
- `Wrapper Class: Character 
+`
+ Wrapper Class: Character 
  
  Minimum value: '\u0000' (or 0). 
  
@@ -153,25 +160,26 @@ localeTitle: أنواع البيانات
 
 مثال:
 
- `public class Box{ 
+ `
+ public class Box { 
  
-    int length, breadth, height; 
+     int length, breadth, height; 
  
-    public Box(){ 
-        length=5; 
-        breadth=3; 
-        height=2; 
-    } 
+     public Box() { 
+         length = 5; 
+         breadth = 3; 
+         height = 2; 
+     } 
  } 
  
- class demo{ 
+ class demo { 
  
     public static void main(String args[]) { 
-        Box box1 = new Box();                //box1 is the reference variable 
-        char[] arr = new char[10];           //arr is the reference variable 
-    } 
- } 
-` 
+        Box box1 = new Box();                // box1 is the reference variable.
+        char[] arr = new char[10];           // arr is the reference variable.
+    }
+ }
+`
 
 ## خيط:
 
