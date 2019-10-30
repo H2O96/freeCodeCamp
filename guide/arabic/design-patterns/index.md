@@ -9,3 +9,4 @@ localeTitle: أنماط التصميم
 [سيساعدك دليل النمط السريع هذا على ضمان قبول طلب السحب](https://github.com/freecodecamp/guides/blob/master/README.md) .
 
 #### معلومات اكثر:
+*   [مقدمة عن أنماط التصميم](https://www.webopedia.com/TERM/O/object_oriented_programming_OOP.html/)
