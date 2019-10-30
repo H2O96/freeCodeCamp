@@ -1,8 +1,8 @@
 ---
 title: Compilers
-localeTitle: المجمعين
+localeTitle: المترجمات
 ---
-## المجمعين
+## المترجمات
 
 ### برمجة
 
